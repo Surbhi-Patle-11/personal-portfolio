@@ -83,17 +83,22 @@ text-align: center;
     position: relative;
 }
 
-button{
+.hero-section p{
+    font-size: 23px;
+}
+
+.cv{
     margin-top: 10px;
     padding: 7px;
    cursor: pointer;
     font-size: 15px;
     border: 2px solid black;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color:#8CFF32;
+    transition: 1s ease-out;
 }
-button:hover{
-    padding: 10px;
+.cv:hover{
+   border-radius:30px ;
 }
 .skills-section{
     
@@ -102,7 +107,7 @@ button:hover{
     justify-content: space-around;
     align-items: center;
     margin-top: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 .skills-card{
     background-color:white;
@@ -117,6 +122,7 @@ button:hover{
    color: black;
    box-shadow:1px 1px 5px white;
    font-weight: 600;
+   transition: 1s ease-in;
    
     
 }
@@ -198,6 +204,7 @@ button:hover{
 }
 .copywrite{
     text-align: center;
+    border-top: 1px solid gray;
    
     padding-top: 15px;
     margin-top: 40px;
