@@ -67,3 +67,57 @@ a{
     color: black;
 }
 
+@media screen and ( max-width:720px) {
+    
+
+.main-cards{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  
+   
+    margin-bottom: 25px;
+    padding: 10px;
+}
+.cards{
+   
+    height: auto;
+    width: 80%;
+    max-width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 4px 9px white;
+    margin: 10px;
+  padding: 5px;
+    text-align: center;
+    color: black;
+    background-color: aliceblue;
+    cursor: pointer;
+    transition:  all 0.2s ease-in-out ;
+    display: flex;
+    flex-direction: column;
+   
+   
+    
+}
+.visit-btn{
+    
+    width: 50%;
+    align-self: center;
+    margin-top: 5px;
+    
+   
+   
+    
+}
+.pro-img{
+    height: 100%;
+}
+.pro-head{
+    font-size: 20px;
+}
+
+}
+
