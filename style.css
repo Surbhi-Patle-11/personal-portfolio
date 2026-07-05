@@ -1,11 +1,11 @@
 body {
     background-color: #111844;
-    margin: 0;
-    padding: 0;
+   
 }
 *{
     
-   
+   margin: 0;
+    padding: 0;
 }
 
 .navbar-box {
@@ -13,7 +13,7 @@ body {
     width: 900px;
     padding: 10px 30px;
  
- box-sizing: border-box;
+ 
     border: 1px solid black;
     border-radius: 60px;
 
@@ -91,6 +91,7 @@ text-align: center;
 
 .hero-section p{
     font-size: 23px;
+    margin-top: 15px;
 }
 
 .cv{
@@ -220,11 +221,24 @@ text-align: center;
     font-size: 16px;
 }
 
+.checkb{
+    display: none;
+
+}
+.humberger{
+    display: none;
+}
 @media screen  and (max-width:720px){
 
     .navbar-box {
+       
+        width: 90%;
+        box-sizing: border-box;
+       
         flex-wrap: wrap;
-        width: 100%;
+       
+      
+        
     }
     .nav-items{
         flex-wrap: wrap;
@@ -233,6 +247,125 @@ text-align: center;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
+        font-size: 1.7em;
     }
+    span{
+        font-size: 30px;
+    }
+    .humberger{
+        display: block;
+
+        font-size: 30px;
+        
+    }
+    .checkb{
+
+        display:none ;
+
+
+       
+    }
+
+    .checkb:checked ~ .nav-items {
+        display:flex ;
+        cursor: pointer;
+    }
+    .short-intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+        padding: 4px;
+       
+    }
+    .my-pic{
+    border: 2px solid #4B5694;
+    border-radius: 50% 50% 0px 0px;
+    box-shadow: 0px 4px 9px #8CFF32;
+}
+    .hero-section{
+       margin-top: 8rem;
+        
+        
+    }
+    .hero-section p{
+    font-size: 15px;
+    margin-top:15px;
+
+}
+
+    .skills-section{
     
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    gap: 2rem;
+}
+.skills-card{
+    background-color:white;
+    border: 1px solid black;
+  
+  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   color: black;
+   box-shadow:1px 1px 5px white;
+   font-weight: 600;
+   transition: 1s ease-in;
+   
+    
+}
+.footer-contaner{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   flex-wrap: wrap;
+    padding: 5px;
+    gap: 15px;
+   
+    margin-bottom: 10px;
+    
+   
+   
+}
+.footer{
+ background-color:#EAE0CF;
+    height: 100%;
+    color: black;
+    padding: 40px 60px;
+    text-align: center;
+    
+}
+.footer-box1{
+    flex-direction: column;
+    text-align: center;
+}
+.contact-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: px;
+    text-decoration: none;
+    margin-bottom: px;
+    font-size: 20px;
+    color: black;
+}
+.insta-icon{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   
+    gap: 30px;
+    margin-top: 5px;
+}
+  
 }
