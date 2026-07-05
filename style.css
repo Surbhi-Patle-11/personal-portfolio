@@ -1,13 +1,19 @@
 body {
     background-color: #111844;
     margin: 0;
+    padding: 0;
+}
+*{
+    
+   
 }
 
 .navbar-box {
     background-color: white;
     width: 900px;
     padding: 10px 30px;
-
+ 
+ box-sizing: border-box;
     border: 1px solid black;
     border-radius: 60px;
 
@@ -212,4 +218,21 @@ text-align: center;
 }
 .footer p, .footer a{
     font-size: 16px;
+}
+
+@media screen  and (max-width:720px){
+
+    .navbar-box {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .nav-items{
+        flex-wrap: wrap;
+        gap: 30px;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
 }
