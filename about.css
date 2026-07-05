@@ -25,3 +25,43 @@
     font-size: 40px;
    
 }
+
+@media screen and (max-width:720px) {
+
+.about-section{
+    margin-top: 90px;
+    
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 2px;
+    color: white;
+    margin-bottom: 30px;
+    height: 100%;
+   
+   
+}
+.para{
+  
+  width: 90%;
+    padding: 15px;
+    font-size: 20px;
+    line-height: 25px;
+   margin-left: 0px;
+   
+   
+   
+}
+.surbhi{
+    font-size: 30px;
+   
+}
+.picture{
+    
+    height: 13rem;
+}
+    
+}
